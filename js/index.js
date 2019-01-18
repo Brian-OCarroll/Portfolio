@@ -23,15 +23,3 @@ $('.nav-link, .project-btn').click(function() {
     }, 400);
 });
 
-$( document ).ready(function() {
-    console.log('ready')
-    // $(".nav-link").on("click", function( e ) {
-    
-    //     e.preventDefault();
-    
-    //     $("body, html").animate({ 
-    //         scrollTop: $( $(this).attr('href') ).offset().top 
-    //     }, 600);
-    //     console.log('ready')
-    
-});
