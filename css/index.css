@@ -24,7 +24,10 @@ ul {
     list-style-type: none;
 
 }
-
+.card-block {
+    padding-left:15px;
+    padding-right:15px;
+}
 li {
     display: inline;
 }
@@ -201,7 +204,12 @@ main {
     font-size:1.5em;
     padding:10%
 }
-
+.about-text {
+    padding:0 5%;
+}
+.social-links {
+    padding: 0 10px;
+}
 @media screen and (max-width: 800px) {
     .projects {
         flex-wrap:wrap;
@@ -211,5 +219,8 @@ main {
 @media screen and (max-width: 600px) {
     .nav-list li a {
         font-size:1.2em
+    }
+    .about-text {
+        padding:0 1%;
     }
 }
